@@ -12,5 +12,3 @@ for file in $dotfiles; do
     ln -sf "$HOME/dotfiles/files/$file" "$HOME/$file"
 
 done
-
-ln -sf "$HOME/dotfiles/files/com.googlecode.iterm2.plist" "$HOME/Library/Preferences/com.googlecode.iterm2.plist"
