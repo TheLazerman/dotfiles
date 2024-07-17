@@ -13,4 +13,4 @@ for file in $dotfiles; do
 
 done
 
-ln -sf "$HOME/dotfiles/files/DefaultProfile.json" "$HOME/.config/iterm/DefaultProfile.json"
+ln -sf "$HOME/dotfiles/files/com.googlecode.iterm2.plist" "$HOME/Library/Preferences/com.googlecode.iterm2.plist"
