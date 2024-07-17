@@ -1,0 +1,18 @@
+[safe]
+	directory = .
+[core]
+	autocrlf = input
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[user]
+	name = Gabe Coones
+[push]
+	autoSetupRemote = true
+	autoSetupRemote = true
+[init]
+	defaultBranch = main
+[alias]
+	ls = log --pretty=format:\"%cn %cd - %s\" --graph --date=format-local:\"%b-%d-%y %H:%M:%S\"
