@@ -15,6 +15,8 @@ ln -sf "$HOME/dotfiles/files/DefaultProfile.json" "$HOME/.config/iterm/DefaultPr
 
 ~/dotfiles/macos_config.sh
 
-exec zsh
 
 echo "[macos] INFO: Installation Complete"
+echo "[macos] INFO: Restarting ZSH"
+
+exec zsh
