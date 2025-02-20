@@ -10,10 +10,6 @@ if [ ! $HOME/.oh-my-zsh ]; then
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 fi
 
-# ln -sf "$HOME/dotfiles/files/com.googlecode.iterm2.plist" "$HOME/Library/Application Support/iTerm2/DynamicProfiles/com.googlecode.iterm2.plist"
-# ln -sf "$HOME/dotfiles/files/DefaultProfile.json" "$HOME/.config/iterm/DefaultProfile.json"
-ln -sf "$HOME/dotfiles/files/DefaultProfile.json" "$HOME/Library/Application Support/iTerm2/DynamicProfiles/DefaultProfile.json"
-
 ~/dotfiles/macos_config.sh
 
 
