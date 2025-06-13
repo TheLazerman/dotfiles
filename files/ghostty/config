@@ -1,0 +1,10 @@
+window-inherit-working-directory = false
+working-directory = /Users/gcoones/Documents/Development
+font-family = Hack Nerd Font Mono
+macos-icon = custom-style
+macos-icon-ghost-color = FDE74C
+macos-icon-frame = plastic
+macos-icon-screen-color = 011627,DEC402
+keybind = global:ctrl+k=toggle_quick_terminal
+shell-integration-features = no-cursor
+cursor-style = block
